@@ -1,10 +1,8 @@
 (ns helloworld)
 ; The traditional "Hello World" Program.
 
-(defn helloworld
-  "docstring"
-  []
+(defn helloworld []                                         ; No arguments here.
   (println "Hello, World! ^_^")
   )
 
-(helloworld)
+(helloworld)                                                ; Execute the function.
