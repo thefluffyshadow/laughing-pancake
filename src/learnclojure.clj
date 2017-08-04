@@ -292,7 +292,7 @@ keymap ; => {:a 1, :b 2, :c 3}
 
 ; Now we can use set operations
 (intersection #{1 2 3} #{2 3 4}) ; => #{2 3}
-(difference #{1 2 3} #{2 3 4}) ; => #{1}
+(difference #{1 2 3 } #{2 3 4}) ; => #{1}
 
 ; You can choose a subset of functions to import, too
 (use '[clojure.set :only [intersection]])
