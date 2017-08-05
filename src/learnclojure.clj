@@ -8,7 +8,7 @@
 ; function or macro to call, and the rest are arguments.
 
 ; The first call in a file should be ns, to set the namespace
-(ns learnclojure)
+(ns .learnclojure)
 
 ; More basic examples:
 
