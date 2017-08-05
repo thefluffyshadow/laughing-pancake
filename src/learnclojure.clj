@@ -137,7 +137,8 @@ x ; => 1
 ; You can have multi-variadic functions, too
 (defn hello3
   ([] "Hello World")
-  ([name] (str "Hello " name)))
+  ([name] (str "Hello " name))
+  )
 (hello3 "Jake") ; => "Hello Jake"
 (hello3) ; => "Hello World"
 
