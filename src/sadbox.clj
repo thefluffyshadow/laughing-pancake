@@ -1,6 +1,8 @@
-(ns .sadbox)
+(ns .sadbox
+  (:gen-class))
 
-(println (str "Hello World!"))
+(defn Example []
+  (println (str "Hello World"))
+  (println (+ 1 2)))
 
-(+ 1 2)
-(- 4 5 -1)
+(Example)

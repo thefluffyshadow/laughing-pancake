@@ -137,8 +137,8 @@ x ; => 1
 ; You can have multi-variadic functions, too
 (defn hello3
   ([] "Hello World")
-  ([name] (str "Hello " name))
-  )
+  ([name] (str "Hello " name)))
+
 (hello3 "Jake") ; => "Hello Jake"
 (hello3) ; => "Hello World"
 
@@ -345,7 +345,7 @@ keymap ; => {:a 1, :b 2, :c 3}
 (import java.util.Calendar)
 (doto (Calendar/getInstance)
   (.set 2000 1 1 0 0 0)
-  .getTime) ; => A Date. set to 2000-01-01 00:00:00
+  (.getTime)) ; => A Date. set to 2000-01-01 00:00:00
 
 ; STM
 ;;;;;;;;;;;;;;;;;
