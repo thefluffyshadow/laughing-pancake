@@ -19,17 +19,17 @@
 (defn Example2 []
   (println "Doseq loop start")
   (doseq [n (range condition_end)]
-    (println n)
-    )
-  )
+    (println n)))
+
+
 
 ;; Example of the dotimes loop statement
 (defn Example3 []
   (println "Dotimes loop start")
   (dotimes [n condition_end]
-    (println n)
-    )
-  )
+    (println n)))
+
+
 
 ; Example of the loop loop statement
 (defn Example4 []
@@ -38,10 +38,10 @@
   (loop [x 0]
     (when (< x condition_end)
       (println x)
-      (recur (inc x))
-      )
-    )
-  )
+      (recur (inc x)))))
+
+
+
 
 
 (Example)
