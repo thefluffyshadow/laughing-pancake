@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29af43d4-a845-4c08-90e6-6522a54bc661" name="Default" comment="small changes to decisions.clj.">
+    <list default="true" id="29af43d4-a845-4c08-90e6-6522a54bc661" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decisions.clj" afterPath="$PROJECT_DIR$/src/decisions.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functions.clj" afterPath="$PROJECT_DIR$/src/functions.clj" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="functions.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/functions.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -662,7 +661,7 @@
       <workItem from="1501900850883" duration="4450000" />
       <workItem from="1502062750179" duration="1646000" />
       <workItem from="1502064440802" duration="4690000" />
-      <workItem from="1502120059292" duration="1646000" />
+      <workItem from="1502120059292" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="Added and played with learnclojure.clj a little bit. &#10;&#10;Q: Why does the print-and-say-hello function print 2 spaces between 'to' and the name it's saying hello to when it prints?">
       <created>1501811092544</created>
@@ -769,11 +768,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502068817180</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Did things with functions. Much less exciting than I thought they would be. Hence the branch... Oh, well.">
+      <created>1502121739464</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1502121739464</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16406000" />
+    <option name="totallyTimeSpent" value="16886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -862,7 +868,8 @@
     <MESSAGE value="Started looking at decision statements (if and the like).&#10;Small change to simplify the output in loops.clj." />
     <MESSAGE value="Started looking at decision statements. Added to it the simple if statement." />
     <MESSAGE value="Added case and cond statements to decisions.clj." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added case and cond statements to decisions.clj." />
+    <MESSAGE value="Did things with functions. Much less exciting than I thought they would be. Hence the branch... Oh, well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Did things with functions. Much less exciting than I thought they would be. Hence the branch... Oh, well." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1175,8 +1182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functions.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
       </provider>
