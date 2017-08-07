@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29af43d4-a845-4c08-90e6-6522a54bc661" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bitwise_operations.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/loops.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variable_types.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="variable_types.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/variable_types.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loops.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/loops.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -80,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/variable_types.clj" />
         <option value="$PROJECT_DIR$/src/helloworld.clj" />
         <option value="$PROJECT_DIR$/src/sadbox.clj" />
+        <option value="$PROJECT_DIR$/src/loops.clj" />
       </list>
     </option>
   </component>
@@ -166,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.variable_types">
+  <component name="RunManager" selected="Clojure Application.loops">
     <configuration default="false" name="learnclojure" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="laughing-pancake" />
       <setting name="path" value="$PROJECT_DIR$/src/learnclojure.clj" />
@@ -192,6 +203,17 @@
     <configuration default="false" name="variable_types" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="laughing-pancake" />
       <setting name="path" value="$PROJECT_DIR$/src/variable_types.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src" />
+      <method />
+    </configuration>
+    <configuration default="false" name="loops" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="laughing-pancake" />
+      <setting name="path" value="$PROJECT_DIR$/src/loops.clj" />
       <setting name="namespace" value="" />
       <setting name="useLein" value="false" />
       <setting name="profiles" value="" />
@@ -629,18 +651,20 @@
       <setting name="workDir" value="$PROJECT_DIR$" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Clojure Application..bitwise-operations" />
       <item index="1" class="java.lang.String" itemvalue="Clojure Application.sadbox" />
       <item index="2" class="java.lang.String" itemvalue="Clojure Application.learnclojure" />
       <item index="3" class="java.lang.String" itemvalue="Clojure Application.helloworld" />
       <item index="4" class="java.lang.String" itemvalue="Clojure Application.variable_types" />
+      <item index="5" class="java.lang.String" itemvalue="Clojure Application.loops" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Application.helloworld" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application.variable_types" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Application.learnclojure" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.loops" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application.helloworld" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Application.variable_types" />
+        <item index="3" class="java.lang.String" itemvalue="Clojure Application.learnclojure" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +682,7 @@
       <workItem from="1501868338410" duration="1528000" />
       <workItem from="1501900850883" duration="4450000" />
       <workItem from="1502062750179" duration="1646000" />
-      <workItem from="1502064440802" duration="307000" />
+      <workItem from="1502064440802" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="Added and played with learnclojure.clj a little bit. &#10;&#10;Q: Why does the print-and-say-hello function print 2 spaces between 'to' and the name it's saying hello to when it prints?">
       <created>1501811092544</created>
@@ -716,11 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502064020255</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added bitwise operations examples">
+      <created>1502064764854</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502064764854</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10346000" />
+    <option name="totallyTimeSpent" value="10621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="58" width="3224" height="1754" extended-state="6" />
@@ -736,7 +767,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33845168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33845168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -775,7 +806,8 @@
     <MESSAGE value="learnclojure still gets a 'cannot be resolved' error on the difference operation on line 296. Not sure why - it runs and prints the operation and its result just fine." />
     <MESSAGE value="added variable-types.clj" />
     <MESSAGE value="messed around with .helloworld" />
-    <option name="LAST_COMMIT_MESSAGE" value="messed around with .helloworld" />
+    <MESSAGE value="added bitwise operations examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bitwise operations examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -892,8 +924,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/variable_types.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loops.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
