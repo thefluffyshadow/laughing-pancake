@@ -1,7 +1,7 @@
 (ns .loops
   (:gen-class))
 
-(def condition_end 5)
+(def condition_end 3)
 
 ; Example of the while loop
 ; Also includes the mysterious atom data type!

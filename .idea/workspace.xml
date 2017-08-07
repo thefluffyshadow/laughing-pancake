@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29af43d4-a845-4c08-90e6-6522a54bc661" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decisions.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/loops.clj" afterPath="$PROJECT_DIR$/src/loops.clj" />
     </list>
@@ -29,7 +30,7 @@
       <file leaf-file-name="learnclojure.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learnclojure.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9000">
+            <state relative-caret-position="1656">
               <caret line="300" column="32" lean-forward="false" selection-start-line="300" selection-start-column="32" selection-end-line="300" selection-end-column="32" />
               <folding />
             </state>
@@ -56,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loops.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loops.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/loops.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="90">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decisions.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/decisions.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/helloworld.clj" />
         <option value="$PROJECT_DIR$/src/sadbox.clj" />
         <option value="$PROJECT_DIR$/src/loops.clj" />
+        <option value="$PROJECT_DIR$/src/decisions.clj" />
       </list>
     </option>
   </component>
@@ -682,7 +694,7 @@
       <workItem from="1501868338410" duration="1528000" />
       <workItem from="1501900850883" duration="4450000" />
       <workItem from="1502062750179" duration="1646000" />
-      <workItem from="1502064440802" duration="1013000" />
+      <workItem from="1502064440802" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="Added and played with learnclojure.clj a little bit. &#10;&#10;Q: Why does the print-and-say-hello function print 2 spaces between 'to' and the name it's saying hello to when it prints?">
       <created>1501811092544</created>
@@ -754,11 +766,25 @@
       <option name="project" value="LOCAL" />
       <updated>1502065056238</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added the doseq statement to the loops example namespace">
+      <created>1502065477747</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1502065477747</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added dotimes and loop loop statements to the loop example file.">
+      <created>1502066574810</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502066574810</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11052000" />
+    <option name="totallyTimeSpent" value="12317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="58" width="3224" height="1754" extended-state="6" />
@@ -815,7 +841,9 @@
     <MESSAGE value="messed around with .helloworld" />
     <MESSAGE value="added bitwise operations examples" />
     <MESSAGE value="added loops with a while loop example - has the mysterious atom data type as well." />
-    <option name="LAST_COMMIT_MESSAGE" value="added loops with a while loop example - has the mysterious atom data type as well." />
+    <MESSAGE value="added the doseq statement to the loops example namespace" />
+    <MESSAGE value="Added dotimes and loop loop statements to the loop example file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dotimes and loop loop statements to the loop example file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -906,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/learnclojure.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9000">
-          <caret line="300" column="32" lean-forward="false" selection-start-line="300" selection-start-column="32" selection-end-line="300" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sadbox.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -938,10 +958,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnclojure.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="300" column="32" lean-forward="false" selection-start-line="300" selection-start-column="32" selection-end-line="300" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/loops.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decisions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
