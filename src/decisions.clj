@@ -1,10 +1,16 @@
 (ns .decisions
   (:gen-class))
 
-; Example of a simple if statement
-(defn Example [] (
-  if ( = 2 2)
-  (println "Values are equal")
-  (println "Values are not equal")))
+(def x 2)
+(def y 2)
+(def z 8)
 
-(Example)
+; Example of a simple if statement
+(defn Example [x y]
+  (if (= x y)
+    (println "Values are equal.")
+    (println "Values are not equal.")
+  )
+)
+
+(Example x z)
