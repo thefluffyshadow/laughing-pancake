@@ -12,9 +12,9 @@
 
   (if (= x y)
     (println "Values are equal.")
-    (println "Values are not equal.")
-  )
-)
+    (println "Values are not equal.")))
+
+
 
 ; Example of a case statement
 (defn Example2 [x]
