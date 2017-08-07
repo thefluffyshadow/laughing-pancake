@@ -32,12 +32,14 @@
   (println "Cond statement start")
 
   (cond
-    (= x pi) (println "x is pi.")
-    (<= x pi) (println "x is less than or equal to pi.")
+    (= x 2) (println "x is 2.")                             ; In the case that this and the next cond are both true,
+    (< x pi) (println "x is less than or equal to pi.")     ; only the first cond that's true is executed.
     (> x pi) (println "x is greater than pi.")
+    :else (println "x is not of note.")
     )
   )
 
 (Example x y)
 (Example2 pi)
 (Example3 pi)
+(Example3 x)
