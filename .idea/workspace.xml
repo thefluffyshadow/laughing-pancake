@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29af43d4-a845-4c08-90e6-6522a54bc661" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/euler001.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler001.clj" afterPath="$PROJECT_DIR$/src/euler001.clj" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +22,8 @@
               <file leaf-file-name="euler001.clj" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/euler001.clj">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="391">
-                      <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                    <state relative-caret-position="357">
+                      <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
                       <folding />
                     </state>
                   </provider>
@@ -690,7 +690,7 @@
       <workItem from="1502127516412" duration="44000" />
       <workItem from="1502127627099" duration="106000" />
       <workItem from="1502127765061" duration="14000" />
-      <workItem from="1502313597864" duration="2003000" />
+      <workItem from="1502313597864" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="Added and played with learnclojure.clj a little bit. &#10;&#10;Q: Why does the print-and-say-hello function print 2 spaces between 'to' and the name it's saying hello to when it prints?">
       <created>1501811092544</created>
@@ -811,11 +811,25 @@
       <option name="project" value="LOCAL" />
       <updated>1502123225934</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finished the first draft of Euler001 in Clojure. The idea of the code is to compute the sum of the multiples of 3 and 5 that are less than a certain number - 1000 is the default.">
+      <created>1502315690051</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1502315690051</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Checking in. Fixed some things that I think were causing issues, but the error &quot;atom cannot be cast to java.lang.Number&quot; persists.">
+      <created>1502315935161</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1502315935161</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19195000" />
+    <option name="totallyTimeSpent" value="19816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -826,7 +840,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -906,7 +920,9 @@
     <MESSAGE value="Added case and cond statements to decisions.clj." />
     <MESSAGE value="Did things with functions. Much less exciting than I thought they would be. Hence the branch... Oh, well." />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Finished the first draft of Euler001 in Clojure. The idea of the code is to compute the sum of the multiples of 3 and 5 that are less than a certain number - 1000 is the default." />
+    <MESSAGE value="Checking in. Fixed some things that I think were causing issues, but the error &quot;atom cannot be cast to java.lang.Number&quot; persists." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking in. Fixed some things that I think were causing issues, but the error &quot;atom cannot be cast to java.lang.Number&quot; persists." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1297,8 +1313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/euler001.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>

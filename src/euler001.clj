@@ -14,8 +14,8 @@
   (while ( < @i target)
     (do
       (cond  ; Test if the current value in i is a mult of 3 or 5.
-        (= (rem @i 3) 0) (swap! total (+ @total @i))  ; If so, add it to the total.
-        (= (rem @i 5) 0) (swap! total (+ @total @i))  ; If so, add it to the total.
+        (= (rem @i 3) 0) (reset! total (+ @total @i))  ; If so, add it to the total.
+        (= (rem @i 5) 0) (reset! total (+ @total @i))  ; If so, add it to the total.
         )
 
       (swap! i inc)
