@@ -11,7 +11,7 @@
 (def i (atom 0))
 
 (defn multiples [target]
-  (while ( < @i target)
+  (while (< @i target)
     (do
       (cond  ; Test if the current value in i is a mult of 3 or 5.
         (= (rem @i 3) 0) (reset! total (+ @total @i))  ; If so, add it to the total.
@@ -25,4 +25,7 @@
   (println "Sum of the multiples less than" target ": " @total)
   )
 
+(multiples 10)
+(multiples 100)
 (multiples 1000)
+(multiples 10000)
