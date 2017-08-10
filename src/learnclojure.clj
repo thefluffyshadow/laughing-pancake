@@ -238,14 +238,14 @@ keymap ; => {:a 1, :b 2, :c 3}
 
 ; Functions have an implicit do
 (defn print-and-say-hello [name]
-  (print "Saying hello to " name "\n")
-  (str "Hello " name))
+  (print "Saying hello to" name "\n")
+  (str "Hello" name))
 (print-and-say-hello "Jeff") ;=> "Hello Jeff" (prints "Saying hello to Jeff")
 
 ; So does let
 (let [name "Urkel"]
-  (print "Saying hello to " name)
-  (str "Hello " name)) ; => "Hello Urkel" (prints "Saying hello to Urkel")
+  (print "Saying hello to" name)
+  (str "Hello" name)) ; => "Hello Urkel" (prints "Saying hello to Urkel")
 
 
 ; Use the threading macros (-> and ->>) to express transformations of
