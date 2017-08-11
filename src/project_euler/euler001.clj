@@ -5,7 +5,7 @@
 ;                     The function of this piece of code is to compute the sum of the multiples of 3 and 5 that are less
 ;                     than a certain number - 1000 is the default.
 ; Date last updated:  10 August 2017
-(ns .euler001)
+(ns project_euler.euler001)
 
 (def total (atom 0))
 (def i (atom 0))
@@ -25,4 +25,4 @@
   (println "Sum of the multiples less than" target ": " @total)
   )
 
-(multiples 1000)
+(multiples target)
