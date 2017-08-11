@@ -14,7 +14,7 @@
 (defn multiples [target]
   (while (< @i target)
     (cond  ; Test if the current value in i is a mult of 3 or 5.
-      (= (mod @i 3) (mod @i 5) 0) (reset! total (+ @total @i @i))  ; If it's a mult of 3 & 5, add it twice.
+      (= (mod @i 3) (mod @i 5) 0) (reset! total (+ @total (* 2 @i)))  ; If it's a mult of 3 & 5, add it twice.
       (= (mod @i 3) 0) (reset! total (+ @total @i))  ; If so, add it to the total.
       (= (mod @i 5) 0) (reset! total (+ @total @i))  ; If so, add it to the total.
       )

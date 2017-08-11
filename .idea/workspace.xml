@@ -91,8 +91,8 @@
       <file leaf-file-name="euler001.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/euler001.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1025,11 +1025,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502432783389</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=".">
+      <created>1502432820351</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1502432820351</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26538000" />
+    <option name="totallyTimeSpent" value="26605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1153,13 +1160,13 @@
     <MESSAGE value="Started looking at decision statements. Added to it the simple if statement." />
     <MESSAGE value="Added case and cond statements to decisions.clj." />
     <MESSAGE value="Did things with functions. Much less exciting than I thought they would be. Hence the branch... Oh, well." />
-    <MESSAGE value="." />
     <MESSAGE value="Finished the first draft of Euler001 in Clojure. The idea of the code is to compute the sum of the multiples of 3 and 5 that are less than a certain number - 1000 is the default." />
     <MESSAGE value="Checking in. Fixed some things that I think were causing issues, but the error &quot;atom cannot be cast to java.lang.Number&quot; persists." />
     <MESSAGE value="Gets an answer, but gets an answer that's off from the correct answer by (target / 2 - 2) consistently." />
     <MESSAGE value="euler001 works! The problem was that it needed to be adding the number twice to the sum if it was a factor of both 3 and 5." />
     <MESSAGE value="Reformatted euler001.clj to look pretty in a function and all. ^w^" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformatted euler001.clj to look pretty in a function and all. ^w^" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1546,8 +1553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/euler001.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
