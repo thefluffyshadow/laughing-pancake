@@ -1,4 +1,4 @@
-(ns Player
+(ns CodinGame.The_Descent
   (:gen-class))
 
 (def mountains (atom {}))
