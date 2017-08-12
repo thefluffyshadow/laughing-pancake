@@ -14,10 +14,11 @@
       (when (> i 0)
         (let [mountainH (read)]
           ; mountainH: represents the height of one mountain.
-          (swap! mountains assoc :i mountainH)
+          (swap! mountains assoc :i mountainH)  ; TODO: this i seems to associate literally. Why?
 
-          (binding [*out* *err*]
-                   (println (str mountains)))
+
+          ;(binding [*out* *err*]
+          ;         (println (str mountains)))
           
         (recur (dec i)))))
     
@@ -25,4 +26,4 @@
     ;   (println "Debug messages..."))
     
     ; The index of the mountain to fire on.
-    (println "4")))
+    (println (str (key (apply max-key val @mountains))))))

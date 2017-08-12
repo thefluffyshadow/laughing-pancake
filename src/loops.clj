@@ -10,7 +10,7 @@
 
   (def x (atom 1))
 
-  (while ( < @x condition_end)
+  (while (< @x condition_end)
     (do
       (println @x)
       (swap! x inc))))
