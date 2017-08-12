@@ -4,8 +4,6 @@
     <list default="true" id="29af43d4-a845-4c08-90e6-6522a54bc661" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CodinGame/the_descent.clj" afterPath="$PROJECT_DIR$/src/CodinGame/the_descent.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/loops.clj" afterPath="$PROJECT_DIR$/src/loops.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project_euler/euler001.clj" afterPath="$PROJECT_DIR$/src/project_euler/euler001.clj" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +41,7 @@
       <file leaf-file-name="learnclojure.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/learnclojure.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7509">
+            <state relative-caret-position="4464">
               <caret line="300" column="32" lean-forward="false" selection-start-line="300" selection-start-column="32" selection-end-line="300" selection-end-column="32" />
               <folding />
             </state>
@@ -53,8 +51,8 @@
       <file leaf-file-name="the_descent.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CodinGame/the_descent.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="348">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -762,7 +760,7 @@
       <workItem from="1502313597864" duration="2624000" />
       <workItem from="1502398983179" duration="607000" />
       <workItem from="1502477642901" duration="2054000" />
-      <workItem from="1502559674967" duration="2416000" />
+      <workItem from="1502559674967" duration="4681000" />
     </task>
     <task id="LOCAL-00001" summary="Added and played with learnclojure.clj a little bit. &#10;&#10;Q: Why does the print-and-say-hello function print 2 spaces between 'to' and the name it's saying hello to when it prints?">
       <created>1501811092544</created>
@@ -939,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502479696459</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="worked more on codingame's &quot;The Descent.&quot; Also mucked up euler001 because I realized that swap! is not a good function to use in that situation.">
+      <created>1502562352028</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1502562352028</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31319000" />
+    <option name="totallyTimeSpent" value="33584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1050,7 +1055,8 @@
     <MESSAGE value="Reformatted euler001.clj to look pretty in a function and all. ^w^" />
     <MESSAGE value="." />
     <MESSAGE value="Started on CodinGame's &quot;The Descent&quot; puzzle." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started on CodinGame's &quot;The Descent&quot; puzzle." />
+    <MESSAGE value="worked more on codingame's &quot;The Descent.&quot; Also mucked up euler001 because I realized that swap! is not a good function to use in that situation." />
+    <option name="LAST_COMMIT_MESSAGE" value="worked more on codingame's &quot;The Descent.&quot; Also mucked up euler001 because I realized that swap! is not a good function to use in that situation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1411,14 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_euler/euler001.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/loops.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
@@ -1427,9 +1425,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_euler/euler001.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/learnclojure.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7509">
+        <state relative-caret-position="4464">
           <caret line="300" column="32" lean-forward="false" selection-start-line="300" selection-start-column="32" selection-end-line="300" selection-end-column="32" />
           <folding />
         </state>
@@ -1437,8 +1443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodinGame/the_descent.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="348">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>
