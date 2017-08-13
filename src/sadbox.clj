@@ -1,8 +1,14 @@
 (ns .sadbox
   (:gen-class))
 
-(defn Example []
-  (println (str "Hello World"))
-  (println (+ 1 2)))
+(defn thing1 []
+  (let [string ""]
+    (dotimes [n 8]
+      (print n)
+      (if (< n 7)
+        (print " + ")
+        (print "\n")))))
 
-(Example)
+(thing1)
+(thing1)
+(thing1)
