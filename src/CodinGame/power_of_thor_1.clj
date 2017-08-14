@@ -20,10 +20,10 @@
 
         max-length (max dist-x dist-y)
         normalize-length #(concat % (repeat (- max-length (count %)) ""))
-        moves (map str (normalize-length y-seq) (normalize-length x-seq))
-        ]
+        moves (map str (normalize-length y-seq) (normalize-length x-seq))]
+
 
     (doseq [move moves]
       (let [remainingTurns (read)]
-           (println move)
-           ))))
+           (println move)))))
+

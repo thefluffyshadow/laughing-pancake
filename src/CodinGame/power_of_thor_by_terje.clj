@@ -15,4 +15,4 @@
         (println (str (case dy -1 "N" 0 "" 1 "S")
                       (case dx -1 "W" 0 "" 1 "E")))
 
-        (recur (+ x dx) (+ y dy)) ))))
+        (recur (+ x dx) (+ y dy))))))
