@@ -2,6 +2,7 @@
   (:gen-class))
 
 ; Referenced https://gist.github.com/MikeMKH/730228a3f658b9b76b72
+; Last Updated 13 August 2017
 
 (defn -main [& args]
   (let [[lightX lightY initialTX initialTY] (repeatedly 4 read)
