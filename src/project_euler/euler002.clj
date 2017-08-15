@@ -12,13 +12,13 @@
 ; Last Updated 14 August 2017
 
 (defn DoTheThing [limit]
-  (loop [n1 (atom 1), n2 (atom 2), accumulator 0]
+  (loop [n1 1, n2 2, accumulator 0]
     (let [f (+ n1 n2)]
       (if (>= f limit)
         accumulator  ; we're done
-        (recur (reset! n1 n2) (reset! n2 f) (+ accumulator f))))))
+        (recur (def n1 n2) (def n2 f) (+ accumulator f))))))  ; Still not the right way to pass the values.
 
 (def limit 4000000)
 
 (defn -main [& args]
- (println "Sum of the even fibonacci terms under" limit "=" (DoTheThing limit)))
+ (println "Sum of the even fibonacci terms under" limit "=" (str (DoTheThing limit))))
