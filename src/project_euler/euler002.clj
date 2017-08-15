@@ -11,7 +11,14 @@
 
 ; Last Updated 14 August 2017
 
-(defn dothething [limit]
-  (println limit))
+(defn DoTheThing [limit]
+  (loop [n1 (atom 1), n2 (atom 2), accumulator 0]
+    (let [f (+ n1 n2)]
+      (if (>= f limit)
+        accumulator  ; we're done
+        (recur (reset! n1 n2) (reset! n2 f) (+ accumulator f))))))
 
-(dothething 4000000)
+(def limit 4000000)
+
+(defn -main [& args]
+ (println "Sum of the even fibonacci terms under" limit "=" (DoTheThing limit)))

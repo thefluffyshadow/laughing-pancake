@@ -16,13 +16,13 @@
     (cond  ; Test if the current value in i is a mult of 3 or 5.
       (= (mod @i 3) (mod @i 5) 0) (swap! total + (* 2 @i))  ; If it's a mult of 3 & 5, add it twice.
       (= (mod @i 3) 0) (swap! total + @i)  ; If so, add it to the total.
-      (= (mod @i 5) 0) (swap! total + @i)  ; If so, add it to the total.
-      )
+      (= (mod @i 5) 0) (swap! total + @i))  ; If so, add it to the total.
 
-    (swap! i inc)
-    )
 
-  (println "Sum of the multiples less than" target ": " @total)
-  )
+    (swap! i inc))
+
+
+  (println "Sum of the multiples less than" target ": " @total))
+
 
 (multiples target)
