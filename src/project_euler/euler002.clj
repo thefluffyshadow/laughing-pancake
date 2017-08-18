@@ -16,7 +16,7 @@
     (let [f (+ n1 n2)]
       (if (>= f limit)
         accumulator  ; we're done
-        (recur (def n1 n2) (def n2 f) (+ accumulator f))))))  ; Still not the right way to pass the values.
+        (recur n2 f (+ accumulator f))))))
 
 (def limit 4000000)
 
