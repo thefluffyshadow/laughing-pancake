@@ -9,16 +9,16 @@
 ; By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the
 ; even-valued terms.
 
-; Last Updated 14 August 2017
+; Last Updated 18 August 2017
 
 (defn DoTheThing [limit]
   (loop [n1 1, n2 2, accumulator 0]
     (let [f (+ n1 n2)]
       (if (>= f limit)
         accumulator  ; we're done
-        (recur n2 f (+ accumulator f))))))
+        (recur n2 f (if (= (mod f 2) 0) (+ accumulator f) 0))))))
 
 (def limit 4000000)
 
 (defn -main [& args]
- (println "Sum of the even fibonacci terms under" limit "=" (str (DoTheThing limit))))
+ (println "Sum of the even fibonacci terms under" limit "=" (DoTheThing limit) "which is" false))
