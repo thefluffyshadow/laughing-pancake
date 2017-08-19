@@ -12,13 +12,15 @@
 ; Last Updated 18 August 2017
 
 (defn DoTheThing [limit]
-  (loop [n1 1, n2 2, accumulator 0]
+  (loop [n1 1, n2 2, accumulator 2]
     (let [f (+ n1 n2)]
       (if (>= f limit)
         accumulator  ; we're done
-        (recur n2 f (if (= (mod f 2) 0) (+ accumulator f) 0))))))
+        (recur n2 f (if (= (mod f 2) 0) (+ accumulator f) accumulator))))))
 
 (def limit 4000000)
 
 (defn -main [& args]
- (println "Sum of the even fibonacci terms under" limit "=" (DoTheThing limit) "which is" false))
+  (let [answer (DoTheThing limit)]
+    (println "Sum of the even fibonacci terms under" limit "=" answer "which is"
+             (if (= answer 4613732) "correct!" (str (- answer 461732) " off.")))))
