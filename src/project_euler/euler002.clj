@@ -18,9 +18,9 @@
         accumulator  ; we're done
         (recur n2 f (if (= (mod f 2) 0) (+ accumulator f) accumulator))))))
 
-(def limit 4000000)
+(def correct-answer 461732)
 
 (defn -main [& args]
-  (let [answer (DoTheThing limit)]
-    (println "Sum of the even fibonacci terms under" limit "=" answer "which is"
-             (if (= answer 4613732) "correct!" (str (- answer 461732) " off.")))))
+  (let [answer (DoTheThing 4000000)]
+    (println "Sum of the even fibonacci terms under 4,000,000 =" answer "which is"
+             (if (= answer correct-answer) "correct!" (str (- answer correct-answer) " off.")))))
