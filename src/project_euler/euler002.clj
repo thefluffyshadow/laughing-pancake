@@ -14,9 +14,7 @@
 (defn DoTheThing [limit]
   (loop [n1 1, n2 2, accumulator 2]
     (let [f (+ n1 n2)]
-      (if (>= f limit)
-        accumulator  ; we're done
-        (recur n2 f (if (= (mod f 2) 0) (+ accumulator f) accumulator))))))
+      (if (>= f limit) accumulator (recur n2 f (if (= (mod f 2) 0) (+ accumulator f) accumulator))))))
 
 (def limit 4000000)
 (def correct-answer 461732)
